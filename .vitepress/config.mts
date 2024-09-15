@@ -17,6 +17,7 @@ export default defineConfig({
   },
   themeConfig: {
     logo: '/cat.png',
+    darkModeSwitchLabel: 'auto',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/introduction' }
