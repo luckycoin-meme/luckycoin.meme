@@ -13,15 +13,12 @@ export default defineConfig({
     logo: '/cat.png',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/markdown-examples' }
+      { text: 'Guide', link: '/introduction' }
     ],
     sidebar: [
       {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
+        text: 'introduction',
+        link: '/introduction'
       }
     ],
 
