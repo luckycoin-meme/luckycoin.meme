@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "CAT420"
-  tagline: The first meta-universe protocol is based on the OP_CAT opcode of the
+  tagline: The first meta-universe protocol is based on the OP_CAT opcode.
   image:
     src: /cat.png
     alt: VitePress

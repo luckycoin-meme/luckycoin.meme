@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "CAT420",
-  description: "The first meta-universe protocol is based on the OP_CAT opcode of the",
+  description: "The first meta-universe protocol is based on the OP_CAT opcode.",
   head: [
     ['link', 
       { 
