@@ -23,7 +23,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/CAT420Protocol/cat420.com' },
+      { icon: 'x', link: 'https://x.com/CAT420Protocol' }      
     ],
 
     footer: {
