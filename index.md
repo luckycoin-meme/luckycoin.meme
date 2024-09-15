@@ -11,14 +11,14 @@ hero:
   actions:
     - theme: brand
       text: Go Started
-      link: /markdown-examples
+      link: /introduction
 
 features:
   - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: coming soon!
   - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: coming soon!
   - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: coming soon!
 ---
 
