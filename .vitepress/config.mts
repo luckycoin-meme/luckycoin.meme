@@ -1,9 +1,15 @@
 import { defineConfig } from 'vitepress'
-
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "CAT420",
   description: "The first meta-universe protocol is based on the OP_CAT opcode of the",
+  head: [
+    ['link', 
+      { 
+        rel: 'icon', 
+        href: '/cat.png' 
+      }
+    ]
+  ],
   vite:{
     server:{
       port: 5177,
@@ -23,7 +29,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/CAT420Protocol/cat420.com' },
+      { icon: 'github', link: 'https://github.com/CAT420Protocol' },
       { icon: 'x', link: 'https://x.com/CAT420Protocol' }      
     ],
 
