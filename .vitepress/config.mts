@@ -1,12 +1,12 @@
 import { defineConfig } from 'vitepress'
 export default defineConfig({
-  title: "CAT420",
-  description: "The first meta-universe protocol is based on the OP_CAT opcode.",
+  title: "LuckyCoin",
+  description: "The first meme coin in the world.",
   head: [
     ['link', 
       { 
         rel: 'icon', 
-        href: '/cat.png' 
+        href: '/logo.png' 
       }
     ]
   ],
@@ -16,7 +16,7 @@ export default defineConfig({
     }
   },
   themeConfig: {
-    logo: '/cat.png',
+    logo: '/logo.png',
     darkModeSwitchLabel: 'auto',
     nav: [
       { text: 'Home', link: '/' },
@@ -29,14 +29,10 @@ export default defineConfig({
       }
     ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/CAT420Protocol' },
-      { icon: 'x', link: 'https://x.com/CAT420Protocol' }      
-    ],
-
+    socialLinks: [],
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2024-present cat420.com'
+      copyright: 'Copyright © 2024-present luckycoin.meme'
     }
   }
 })

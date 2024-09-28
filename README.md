@@ -1,1 +1,1 @@
-# cat420.com
+# luckycoin.meme
