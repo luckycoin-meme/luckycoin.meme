@@ -14,15 +14,23 @@ hero:
       link: /introduction
 
 features:
-  - title: luckycoin.meme(20000U)
-    details: The domain name luckycoin.meme can be used as the official website of luckycoin. luckycoin is the first meme coin!
-  - title: lkyscan.com(20000U)
-    details: This domain can be used as a browser for luckychain. lucky can be abbreviated as LKY. e.g. bscscan,solscan,etherscan etc.
-  - title: lky20.com(20000U)
-    details: This domain can be used as a marketplace for luckychain tokens. Similar to the ERC20 token on Ether.
----
+  - title: Luckycoin
+    details: Luckycoin is the world's first meme coin, a proof-of-work token that can be mined by anyone!
+    link: https://github.com/luckycoin-meme/luckycoin
+  - title: Luckycoin-Cli
+    details: Command line interface for LuckyCoin miners!
+    link: https://github.com/luckycoin-meme/luckycoin-cli
+  - title: Luckycoin-Pool
+    details: Infrastructure for luckycoin mining pools!
+    link: https://github.com/luckycoin-meme/luckycoin-pool
+  - title: Luckycoin-APP
+    details: Web app for luckycoin cryptocurrency mining!
+    link: https://github.com/luckycoin-meme/luckycoin-app
+  - title: Luckycoin.meme
+    details: official repo for luckycoin.meme!
+    link: https://github.com/luckycoin-meme/luckycoin.meme
+  - title: More
+    details: Come Soon......
 
-<div style="text-align: center;margin-top: 150px;font-size: 20px;">
-xiaokuige1688@gmail.com
-</div>
+---
 
