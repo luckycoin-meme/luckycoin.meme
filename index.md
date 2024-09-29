@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: LuckyCoin
+  name: Luckycoin
   tagline: The first meme coin in the world.
   image:
     src: /logo.png

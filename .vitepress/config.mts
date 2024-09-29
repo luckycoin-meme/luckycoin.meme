@@ -1,12 +1,12 @@
 import { defineConfig } from 'vitepress'
 export default defineConfig({
-  title: "LuckyCoin",
+  title: "Luckycoin",
   description: "The first meme coin in the world.",
   head: [
-    ['link', 
-      { 
-        rel: 'icon', 
-        href: '/logo.png' 
+    ['link',
+      {
+        rel: 'icon',
+        href: '/logo.png'
       }
     ]
   ],
@@ -29,7 +29,10 @@ export default defineConfig({
       }
     ],
 
-    socialLinks: [],
+    socialLinks: [
+      { icon: 'x', link: 'https://x.com/bridge_hsu' },
+      { icon: 'github', link: 'https://github.com/luckycoin-meme' }
+    ],
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2024-present luckycoin.meme'
