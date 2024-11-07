@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 export default defineConfig({
-  title: "Luckycoin",
-  description: "The first meme coin in the world.",
+  title: "LuckyCoin",
+  description: "The world's first meme coin, a proof-of-work token that can be mined by anyone! This token is mined on the Solana blockchain!",
   head: [
     ['link',
       {
@@ -30,11 +30,11 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'x', link: 'https://x.com/bridge_hsu' },
+      { icon: 'x', link: 'https://x.com/TheBridgeHsu' },
       { icon: 'github', link: 'https://github.com/luckycoin-meme' }
     ],
     footer: {
-      message: 'Released under the MIT License.',
+      message: 'DISCLAIMER:All resources provided on this website are sourced from the internet and are for learning and communication purposes only, and the copyright belongs to the original author. Issuing tokens involves risks, please ensure compliance with local laws and regulations. This website does not assume any legal responsibility and is not liable for any compensation.',
       copyright: 'Copyright © 2024-present luckycoin.meme'
     }
   }
