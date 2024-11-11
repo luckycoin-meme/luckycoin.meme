@@ -20,12 +20,44 @@ export default defineConfig({
     darkModeSwitchLabel: 'auto',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/introduction' }
+      { text: 'Guide', link: '/docs/welcome' }
     ],
     sidebar: [
       {
-        text: 'introduction',
-        link: '/introduction'
+        text: 'WELCOME',
+        link: '/docs/welcome.md'
+      },
+      {
+        text: 'CA',
+        items: [
+          { text: 'Open', link: '/docs/ca/open.md' },
+          { text: 'mine', link: '/guide/advanced/deployment.md' },
+          { text: 'stake', link: '/guide/advanced/deployment.md' },
+          { text: 'claim', link: '/guide/advanced/deployment.md' },
+          { text: 'close', link: '/guide/advanced/deployment.md' },
+          { text: 'update', link: '/guide/advanced/deployment.md' },
+        ],
+      },
+      {
+        text: 'CLI',
+        items: [
+          { text: 'Mine', link: '/docs/cli/mine.md' },
+          { text: 'Balance', link: '/docs/cli/balance.md' },
+          { text: 'Benchmark', link: '/docs/cli/benchmark.md' },
+          { text: 'Busses', link: '/docs/cli/busses.md' },
+          { text: 'Claim', link: '/docs/cli/claim.md' },
+          { text: 'Close', link: '/docs/cli/close.md' },
+          { text: 'Proof', link: '/docs/cli/proof.md' },
+          { text: 'Rewards', link: '/docs/cli/rewards.md' },
+          { text: 'Stake', link: '/docs/cli/stake.md' },
+          { text: 'Transfer', link: '/docs/cli/transfer.md' },
+          { text: 'Upgrade', link: '/docs/cli/upgrade.md' },
+          { text: 'Initialize', link: '/docs/cli/initialize.md' },
+        ],
+      },
+      {
+        text: 'APP',
+        link: '/docs/welcome.md'
       }
     ],
 
